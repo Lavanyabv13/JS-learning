@@ -1,7 +1,10 @@
+# Scope
+
 ## What is Scope?
 
 Scope determines where a variable can be accessed in a program.
 
+---
 
 ## Why Scope?
 
@@ -22,7 +25,7 @@ Accessible from anywhere in the program.
 
 Example:
 
-javascript
+```javascript
 const company = "Qualitest";
 
 console.log(company);
@@ -32,7 +35,7 @@ function displayCompany() {
 }
 
 displayCompany();
-
+```
 
 ---
 
@@ -44,13 +47,14 @@ Accessible only within that function.
 
 Example:
 
-javascript
+```javascript
 function employee() {
     let name = "Lavanya";
     console.log(name);
 }
 
 employee();
+```
 
 ---
 
@@ -64,11 +68,12 @@ Accessible only within that block.
 
 Example:
 
-javascript
+```javascript
 {
     let city = "Bangalore";
     console.log(city);
 }
+```
 
 ---
 
@@ -76,30 +81,37 @@ javascript
 
 ### var
 
-javascript
+```javascript
 {
     var browser = "Chrome";
 }
 
 console.log(browser);
+```
 
-Output: Chrome (because var ignores the block scope)
+Output:
 
+```
+Chrome
+```
 
 ---
 
 ### let
 
-javascript
+```javascript
 {
     let browser = "Chrome";
 }
 
 console.log(browser);
-
+```
 
 Output:
+
+```
 ReferenceError
+```
 
 ---
 
