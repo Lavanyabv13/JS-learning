@@ -70,8 +70,8 @@ if(isIDValid) {
 }
 
 
-/*
-PRACTICE ON BELOW EXAMPLES
+
+//PRACTICE ON BELOW EXAMPLES
 
 
 // Example 1 - if
@@ -98,15 +98,15 @@ if (marks >= 35) {
 
 // Example 3 - else if
 
-let score = 82;
+let scores = 82;
 
-if (score >= 90) {
+if (scores >= 90) {
     console.log("Grade A");
 }
-else if (score >= 75) {
+else if (scores >= 75) {
     console.log("Grade B");
 }
-else if (score >= 50) {
+else if (scores >= 50) {
     console.log("Grade C");
 }
 else {
@@ -181,4 +181,4 @@ if (loggedIn) {
         console.log("Open User Dashboard");
     }
 
-} */
+} 
