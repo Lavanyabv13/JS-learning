@@ -105,14 +105,5 @@ Unicode is useful while testing:
 • Currency symbols
 • Emojis
 • Input validation
-• Localization (L10N)
-• Internationalization (I18N)
 
-Example:
 
-User Name:
-Lavanya
-लावण्या
-ಲಾವಣ್ಯ
-
-All should be accepted if the application supports Unicode.
