@@ -89,10 +89,22 @@ function loginStatus(username, password) {
 
 //Complete Automation Flow:
 
-console.log("Project Flow");
+console.log("*****Project Flow******");
 openBrowser("Google");
 naviagte("www.xyz.com");
 logIn("Lavanya", "12345");
 console.log(loginStatus("Lavanya", "12345"));
 searchProduct("iphone");
 console.log("Page Title is:", getPageTile());
+
+/* 
+OUTPUT:
+*****Project Flow******
+Opening in Google Browser
+Navigating to: www.xyz.com
+Username: Lavanya
+Password: 12345
+Login Successful
+Searching for: iphone
+Page Title is: Home Page 
+*/
